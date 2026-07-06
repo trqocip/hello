@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 // ルートパス
 app.get('/', (req, res) => {
   try {
-    res.send('Hello from Render + Node.js!');
+    res.send('Hello from Render + Node.js for the first time!');
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal Server Error');
